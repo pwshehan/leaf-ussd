@@ -7,9 +7,9 @@ ini_set('display_errors', 1);
 include_once 'lib/ussd/UssdReceiver.php';
 include_once 'lib/ussd/UssdSender.php';
 
-define ("APP_NAME","LEAF");
-define ("APP_ID","APP_051397");
-define("APP_PASSWORD","4505a700e7a581eb067bb021d4b5a2c5");
+define ("APP_NAME","appname");
+define ("APP_ID","appid");
+define("APP_PASSWORD","password");
 
 define("USSD_SENDER_URL","https://api.ideamart.io/ussd/send");
 
